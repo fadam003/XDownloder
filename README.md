@@ -12,5 +12,5 @@ I used to this App:
 <li><a href="https://www.python.org/downloads/release/python-360/">Python 3.6</a></li>
 <li><a href="https://pypi.org/project/Django/"> Django 2.1</a></li>
 <li><a href="https://pypi.org/project/pafy/">pafy</a></li> Python library to download YouTube content and retrieve metadata
-<li> Bootstrap </li>
+<li> <a href="https://getbootstrap.com/">Bootstrap4.2</a> </li>
 </ul>
