@@ -5,7 +5,7 @@
 
 <b> XDownloder </b>
 <p style="font-size:50px;">is Web-Aplication was built using Django.</br>
-with <b> XDownloder </b> you can esaliy download your favourite vedios in Youtube in any qulity or format your viedo had . <p>
+with <b> XDownloder </b> you can esaliy download your favourite vedios on Youtube in any qulity or format your viedo had . <p>
 
 I used to this App: 
 <ul>
