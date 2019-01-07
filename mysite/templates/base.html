@@ -1,0 +1,19 @@
+{% url 'detail' as detail_url %}
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'main.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>XDownloder</title>
+    </head>
+    <body>
+        {% block content %}{% endblock content %}
+        <!-- start footer -->
+        <footer>
+                Copyright &copy; Fadam 2019
+        </footer>
+        <!-- end footer -->
+    </body>
+</html>

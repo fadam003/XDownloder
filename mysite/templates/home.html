@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+ <!-- start header -->
+    <header id="download">
+                <h1>XDownloder</h1>
+                <h2>YouTube Video Downloader</h2>
+                <p>Download videos from YouTube in MP4, FLV, 3GP, and other formats</p>
+                <form class="container" action='/' method="post">{% csrf_token %}
+                    <div class="input-group mb-2">
+                            <input id = 'url'  name="url" type="text" class="form-control" placeholder="Enter Your URL ..." aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <input id="button_home" class="btn btn-outline-secondary" type="submit" id="button-addon2" value="Download">
+                             </div>
+                    </div>
+                </form>
+     </header>
+ <!-- end header -->
+<!-- start social media section  -->
+    <section id="social-media">
+        <h2> Learn More About Us </h2>
+        <button type="button" class="btn btn-primary">Facebook</button>
+        <button type="button" class="btn btn-secondary">Twitter</button>
+        <button type="button" class="btn btn-danger">Instagram</button>
+    </section>
+<!-- end social media section -->
+{% endblock content %}

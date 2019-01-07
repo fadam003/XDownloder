@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Staatliches');
+/* start header */
+#download{
+    background:#940A0A;
+    color:#Fff;
+    text-align: center;
+    height:100vh;
+}
+#download h1{
+    font-family: 'Pacifico', cursive;
+    background:#5A0101;
+    text-align: center;
+    color:#fff;
+    padding:1rem;
+}
+#download h2{
+    margin-top:12rem;
+    padding: 1rem;
+}
+#download p {
+    font-size:1.5rem;
+    margin-bottom: 2rem;
+}
+#download form {
+    width: 60%;;
+    height: 50%;
+}
+#download form #url{
+    height: 4rem;
+}
+#download form  #button_home{
+    width: 10rem;
+    background:#F6B461;
+    color:#FFFFFF;
+    border:none;
+}
+#download form  #button_home:hover {
+    background: #FFF6BD;
+    color: #333;
+}
+/* end header */
+
+/* start social media section */  /* just for home page */
+#social-media {
+    text-align: center;
+    color: #384687;
+    margin-top:5rem;
+}
+#social-media button{
+     width: 10rem;
+     border:none;
+     height: 4rem;
+    margin:75px 25px;
+}
+/* end social media section */
+
+/* start footer */
+footer{
+    background:#5A0101;
+    padding: 40px 0 40px 0 ;
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size:1em;
+}
+/* end footer */
+
+/* start video details section */ /* this just appear in detail page */
+#video-detail {
+    text-align: center;
+    margin:5rem 5rem;
+}
+.video-info h1{
+    text-align: center;
+    padding:25px;
+    font-size: 4rem;
+}
+.video-info img {
+    width: 300px;
+    padding-bottom: 1rem;
+}
+.video-download p{
+    color:red;
+    padding:25px;
+}
+#button{
+    background:#F6B461;
+    color:#FFFFFF;
+    border:none;
+}
+#button:hover{
+    background: #FFF6BD;
+    color: #333;
+}
+
+
+

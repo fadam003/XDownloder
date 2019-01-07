@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+ <!-- start header -->
+<header id="download" style="height:50vh;">
+                <h1>XDownloder</h1>
+                <h2 style="margin-top:5rem">YouTube Video Downloader</h2>
+            </header>
+<!-- end header -->
+<!-- start video details section  -->
+<section id="video-detail">
+    <div class="row">
+       <div class="info col-md-4">
+    <div class="video-info">
+        <img src="{{thumb}}" alt="">
+        <h5>{{title}}</h5>
+    </div>
+       </div>
+        <div class="col-md-8">
+    <div class="video-download">
+        <h1>Download Video with Sound</h1>
+        <p>*** To download, right-click on the download button (or tap and hold if using mobile) and choose the Save/Download option.***</p>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Quality</th>
+              <th scope="col">Format</th>
+              <th scope="col">Size</th>
+              <th scope="col">Downloads</th>
+            </tr>
+          </thead>
+         <tbody>
+            {% for f,q,d,s in streams %}
+            <tr>
+                <td>{{q}}p</td>
+                <td>{{f}} </td>
+                <td>{{s}}B</td>
+              <td><a href="{{d}}" type="button" class="btn btn-primary" id="button">Download</a></td>
+            </tr>
+         {% endfor %}
+          </tbody>
+        </table>
+    </div>
+        </div>
+    </div>
+</section>
+<!-- end video details section -->
+{% endblock content %}
